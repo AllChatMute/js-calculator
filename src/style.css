@@ -29,7 +29,7 @@ body {
 .calculator__buttons {
   display: grid;
   grid-template-columns: repeat(3, 150px);
-  grid-template-rows: repeat(5, 150px);
+  grid-template-rows: repeat(5, 150px) 100px;
 }
 .btn {
   background: #323232;
